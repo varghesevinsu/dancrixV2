@@ -1,0 +1,54 @@
+.grid-type .list{
+}
+.grid-type .grid-col {
+  border: 1px solid #ccc;
+}
+
+.grid-type .grid-col label {
+  margin-bottom: 0;
+  padding: 0 5px;
+}
+
+.grid-type .grid-col div .h {
+  display: block;
+  background-color: #999;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.grid-type .grid-col div .c {
+  display: block;
+  font-size: 10px;
+}
+
+.sortable-grid {}
+
+.sortable-grid .draggable {
+  width: 85px;
+  cursor: grab;
+}
+
+.sortable-grid .draggable.bigger {
+  width: 100%;
+  border-bottom: 2px solid #ccc;
+}
+
+.sortable-grid .draggable * {
+  cursor: grab;
+}
+
+.sortable-grid .draggable.dragged {
+  background-color: #fafafa;
+  border: 1px dashed #cccccc;
+}
+
+.delete-form-item {
+  position: absolute;
+  right: 0;
+  padding: 4px;
+  font-size: 10px;
+  cursor: pointer;
+  background-color: #eaeaea;
+  z-index: 9;
+}

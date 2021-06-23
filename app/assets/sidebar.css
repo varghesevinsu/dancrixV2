@@ -1,0 +1,53 @@
+.sectionHeader {
+  background-color: #dddddd;
+  height: 20px;
+  line-height: 20px;
+}
+
+.sectionItem {
+  color: #616161;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 10px;
+  width: calc(100% - 20px);
+  margin: 0;
+  float: left;
+}
+
+.sidebarToolIcons {
+  margin: 0;
+  vertical-align: middle;
+  cursor: pointer;
+  float: right;
+  width: 20px;
+  text-align: center;
+  height: 20px;
+}
+
+.sidebarToolIcons i {
+  font-size: 13px;
+  line-height: 21px;
+  display: block;
+}
+
+.sidebarItem {
+  font-size: 15px;
+  padding: 3px 10px;
+  margin-bottom: 0px;
+}
+
+.pageName {
+  display: inline-block;
+  width: 95%;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.pageAction {
+  display: inline-block;
+  width: 5%;
+  cursor: pointer;
+  font-size: 10px;
+  color: #999;
+}

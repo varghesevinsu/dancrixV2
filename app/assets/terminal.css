@@ -1,0 +1,72 @@
+.terminal-wrapper {
+  background-color: #ffffff;
+    width: 100%;
+    height: calc(100% - 0px);
+    overflow: auto;
+    margin-top: 24px;
+}
+
+.terminal-wrapper div {
+  width: 100%;
+}
+
+.terminal-wrapper ul {
+  list-style: none;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  background: #eaeaea;
+  top: 0;
+  margin-bottom: 5px;
+}
+
+.terminal-wrapper ul li {
+  padding: 0;
+  float: left;
+}
+
+.terminal-wrapper pre {
+  clear: both;
+  width: 100%;
+  overflow: auto;
+  font-size: 12px;
+  font-family: monospace;
+  padding: 5px;
+  color: #3f2d86;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.terminal-wrapper pre span{
+  display: block;
+}
+
+.terminal-wrapper .server-actions span {
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+.terminal-wrapper .server-actions span:hover {
+  background-color: #eaeaea;
+}
+
+.terminal-wrapper .server-actions .icon-play {
+  color: #00e600;
+}
+
+.terminal-wrapper .server-actions .icon-stop {
+  color: #ff0000;
+}
+.terminal-split-pane{
+  width: 100%;
+  overflow: hidden;
+}
+
+span.info, span.error {
+  display: block;
+}
+span.info {
+  color: #340dce;
+}
+span.error {
+  color: red;
+}
